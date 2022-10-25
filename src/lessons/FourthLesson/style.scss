@@ -1,0 +1,15 @@
+.fourth-lesson-card {
+  background: orange;
+  width: 420px;
+  height: auto;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  list-style: none;
+
+  .fourth-lesson-image {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+  }
+}

@@ -1,5 +1,8 @@
 
 import './style.scss'
+import { FifthLesson } from '../FifthLesson'
+
+
 export const FourthLesson = () => {
 
   const componentsFinder = [
@@ -17,6 +20,7 @@ export const FourthLesson = () => {
 
   return(
     <div className="fourth-lesson">
+      <FifthLesson />
       <h1>Componentes identifcados</h1>
     <ul>
 
